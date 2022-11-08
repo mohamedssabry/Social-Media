@@ -1,10 +1,14 @@
 import React from "react";
+import Stories from "../../Components/Stories/Stories";
+import Posts from "../../Components/Posts/Posts";
+
 import "./Home.scss";
 
 function Home() {
   return (
     <div className="home">
-      <h1>home</h1>
+      <Stories />
+      <Posts />
     </div>
   );
 }
